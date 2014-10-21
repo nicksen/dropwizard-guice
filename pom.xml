@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.nicksen</groupId>
-    <artifactId>dw-guice</artifactId>
+    <artifactId>dropwizard-guice</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -77,10 +77,10 @@
                 <version>1.0.0</version>
                 <configuration>
                     <targetClasses>
-                        <param>com.budbee.api.*</param>
+                        <param>io.github.nicksen.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>com.budbee.api.*</param>
+                        <param>io.github.nicksen.*</param>
                     </targetTests>
                 </configuration>
             </plugin>
